@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+}
+
+.containerCantaoApi{
+    background-color: bisque;
+}
+.containerPdts{
+    display:flex;
+    justify-content:space-between;
+    gap:5rem;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+
+
+}
+.image{
+    width:15rem;
+    border-radius: 1rem;
+    
+}
+.pdtsUl, h3{
+    text-align: center;
+    width:15rem;
+}

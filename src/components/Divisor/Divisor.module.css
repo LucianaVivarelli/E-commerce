@@ -1,0 +1,30 @@
+.Divisor {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 2.4rem;
+    text-shadow: 4px 4px 5px #eeeaea93;
+    font-family: 'Cinzel', serif;
+    
+    color: rgba(7, 197, 218, 0.728);
+    line-height: 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  .Divisor::after,
+  .Divisor::before {
+    content: "";
+    border: 1px solid #3d023493;
+    flex: 1;
+  }
+  
+  .Divisor:not(:empty)::before {
+    margin-right: 0.5em;
+  }
+  .Divisor:not(:empty)::after {
+    margin-left: 0.75em;
+  }
+  

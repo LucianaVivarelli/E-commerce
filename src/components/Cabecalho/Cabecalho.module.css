@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+
+}
+.navBar{
+    height: 45rem;
+    background: url('../../assets/images/header/Fashion.gif') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.listaContainer{
+    display:flex;
+    justify-content: end;
+    gap:2rem;
+    padding-right: 1rem;
+}
+.navList{
+    color:bisque;
+}
+.list{
+    display:flex;
+    justify-content: space-between;
+    background-color: bisque;
+    color: rgb(24, 176, 210);
+    font-size: 1.4rem;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 700;
+}

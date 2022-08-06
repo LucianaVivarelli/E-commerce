@@ -1,0 +1,22 @@
+
+.iList01, 
+.iList02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin-top:3rem;
+
+}
+
+img{
+    border-radius: 2rem;
+    
+}
+
+
+
+
+
+
+
