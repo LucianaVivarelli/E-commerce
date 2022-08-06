@@ -1,26 +1,26 @@
 import React from "react";
-import Styles from "./Cabecalho.module.css"
+import Styles from "./Cabecalho.module.css";
 
- export const Cabecalho = () => {
+export const Cabecalho = () => {
   return (
     <div className="Container">
-    
       <header className={Styles.Cabecalho}>
-            {/*Seção de informações da loja. Como: Meios de pagamento e frete*/}
-  <section className={Styles.descriptionPay}>
-    <ul className={Styles.list}>
-      <li className={Styles.listCart}>Carrinho</li>
-      <li className={Styles.listPay}>Em até 5x sem juros</li>
-      <li className={Styles.listFrete}>frete grátis acima de 300 reais em compras</li>
-      <li className={Styles.listOffJam}>
-        15% off na primeira compra com o cupom: BEAUTY
-      </li>
-    </ul>
-  </section>
-   {/*Seção de Imagem header com butão de linkagem para a mesma página em coleções*/}
+        {/*Seção de informações da loja. Como: Meios de pagamento e frete*/}
+        <section className={Styles.descriptionPay}>
+          <ul className={Styles.list}>
+            <li className={Styles.listCart}>Carrinho</li>
+            <li className={Styles.listPay}>Em até 5x sem juros</li>
+            <li className={Styles.listFrete}>
+              frete grátis acima de 300 reais em compras
+            </li>
+            <li className={Styles.listOffJam}>
+              15% off na primeira compra com o cupom: BEAUTY
+            </li>
+          </ul>
+        </section>
+        {/*Seção de Imagem header com butão de linkagem para a mesma página em coleções*/}
         <nav className={Styles.navBar}>
           <div className={Styles.listaContainer}>
-            
             <a className={Styles.navList} href="./Pages/Login.html">
               Login
             </a>
@@ -34,4 +34,3 @@ import Styles from "./Cabecalho.module.css"
     </div>
   );
 };
-

@@ -1,36 +1,32 @@
-*{
-    margin: 0;
-    padding:0;
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navBar {
+  height: 45rem;
+  background: url("../../assets/images/header/Fashion (1).gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.listaContainer {
+  display: flex;
+  justify-content: end;
+  padding: 1rem 1rem;
+  gap: 4rem;
+  font-size: 2rem;
+  font-family: "Cormorant SC", serif;
+}
+.navList {
+  color: bisque;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  background-color: bisque;
+  color: rgb(210, 123, 24);
+  font-size: 1.4rem;
+  font-family: "Cinzel", serif;
 
-}
-.navBar{
-    height: 45rem;
-    background: url('../../assets/images/header/Fashion (1).gif') ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-.listaContainer{
-    display:flex;
-    justify-content: end;
-    padding: 1rem 1rem;
-    gap:4rem;
-    font-size: 2rem;
-    font-family: 'Cormorant SC', serif;
-   
-}
-.navList{
-    color:bisque;
-
-}
-.list{
-    display:flex;
-    justify-content: space-between;
-    background-color: bisque;
-    color: rgb(210, 123, 24);
-    font-size: 1.4rem;
-    font-family: 'Cinzel', serif;
-    
-    font-weight: 700;
+  font-weight: 700;
 }

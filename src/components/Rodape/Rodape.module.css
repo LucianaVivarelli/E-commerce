@@ -1,17 +1,16 @@
-.containerFooter{
-    background-color: rgb(40, 2, 44);
-    
+.containerFooter {
+  background-color: rgb(40, 2, 44);
 }
-.listsContainer{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.listsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-.social{
-color:bisque;
-margin:2rem;
+.social {
+  color: bisque;
+  margin: 2rem;
 }
-.search{
-    color:bisque;
-    margin:2rem;
+.search {
+  color: bisque;
+  margin: 2rem;
 }

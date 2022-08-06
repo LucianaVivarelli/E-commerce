@@ -1,11 +1,10 @@
-import React from 'react'
-import Styles from './Botao.module.css'
+import React from "react";
+import Styles from "./Botao.module.css";
 
- export const Botao = ({texto}) => {
+export const Botao = ({ texto }) => {
   return (
-     <div>
-       <button className={Styles.btn}>{texto}</button>
-     </div>
-  )
-}
-
+    <div>
+      <button className={Styles.btn}>{texto}</button>
+    </div>
+  );
+};

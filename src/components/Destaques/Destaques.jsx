@@ -13,34 +13,16 @@ export const Destaques = () => {
 
       <div clasName={Styles.containerImg}>
         <div className={Styles.iList01}>
-              <img 
-                src={midle01}
-                alt="Sobre a Marca"
-              />
-            
-          
-              <img 
-              src={midle02} 
-              alt="Promoções" />
-         
-         
-          </div>
-          <div className={Styles.iList02}>
-          
-             
-                <img 
-                src={midle03} 
-                alt="Bazar" />
-      
-      
-                <img 
-                src={midle04} 
-                alt="Loja" />
-             
-           
-          </div>
+          <img src={midle01} alt="Sobre a Marca" />
+
+          <img src={midle02} alt="Promoções" />
         </div>
-      </>
-   
+        <div className={Styles.iList02}>
+          <img src={midle03} alt="Bazar" />
+
+          <img src={midle04} alt="Loja" />
+        </div>
+      </div>
+    </>
   );
 };

@@ -1,23 +1,13 @@
-
-.iList01, 
+.iList01,
 .iList02 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:15rem;
-    margin-top:10rem;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+  margin-top: 10rem;
 }
 
-img{
-    border-radius: 2rem;
-    width: 50rem;
-    
+img {
+  border-radius: 2rem;
+  width: 50rem;
 }
-
-
-
-
-
-
-
