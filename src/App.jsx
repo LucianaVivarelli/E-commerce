@@ -3,7 +3,6 @@ import { CantaoApi } from './components/CantaoApi/CantaoApi'
 import { Cabecalho } from './components/Cabecalho/Cabecalho'
 import { Destaques } from './components/Destaques/Destaques'
 import { Rodape } from './components/Rodape/Rodape'
-import './app.css'
 function App() {
   const [count, setCount] = useState(0)
 
