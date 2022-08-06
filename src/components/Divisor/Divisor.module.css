@@ -7,7 +7,7 @@
     font-size: 2.4rem;
     text-shadow: 4px 4px 5px #eeeaea93;
     font-family: 'Cinzel', serif;
-    
+    letter-spacing: 1rem;
     color: rgba(218, 141, 7, 0.728);
     line-height: 2rem;
     text-transform: uppercase;
@@ -17,14 +17,16 @@
   .Divisor::after,
   .Divisor::before {
     content: "";
-    border: 1px solid #18e8c23b;
+    border: 0.5rem solid #18e8c23b;
+    border-radius: 20rem;
     flex: 1;
   }
   
   .Divisor:not(:empty)::before {
-    margin-right: 2em;
+    margin-right: 4em;
+    
   }
   .Divisor:not(:empty)::after {
-    margin-left: 2em;
+    margin-left: 4em;
   }
   
