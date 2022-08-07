@@ -21,10 +21,10 @@ export const Cabecalho = () => {
         {/*Seção de Imagem header com butão de linkagem para a mesma página em coleções*/}
         <nav className={Styles.navBar}>
           <div className={Styles.listaContainer}>
-            <a className={Styles.navList} href="./Pages/Login.html">
+            <a className={Styles.login} href="./Pages/Login.html">
               Login
             </a>
-            <a className={Styles.navList} href="./Pages/Contato.html">
+            <a className={Styles.contato} href="./Pages/Contato.html">
               Contato
             </a>
           </div>

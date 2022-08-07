@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Contato = () => {
+export const Contato = () => {
   return (
-    <div>Contato</div>
+    <div>
+
+
+
+    </div>
   )
 }
-
-export default Contato

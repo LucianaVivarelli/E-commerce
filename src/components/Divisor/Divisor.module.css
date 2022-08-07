@@ -28,3 +28,27 @@
 .Divisor:not(:empty)::after {
   margin-left: 4em;
 }
+@media (max-width:767px){
+  .Divisor{
+    font-size: 1.5rem;
+    margin-top: 80px;
+    margin-bottom: 55px;
+
+  }
+  
+.Divisor::after,
+.Divisor::before {
+  content: "";
+  border: 0.3rem solid #18e8c23b;
+  background-color: #e818835f;
+  border-radius: 50rem;
+  flex: 1;
+}
+
+.Divisor:not(:empty)::before {
+  margin-right: 2em;
+}
+.Divisor:not(:empty)::after {
+  margin-left: 2em;
+}
+}

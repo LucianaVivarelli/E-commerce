@@ -3,11 +3,13 @@ import { CantaoApi } from "./components/CantaoApi/CantaoApi";
 import { Cabecalho } from "./components/Cabecalho/Cabecalho";
 import { Destaques } from "./components/Destaques/Destaques";
 import { Rodape } from "./components/Rodape/Rodape";
-function App() {
+
+
+export const App = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="home">
+    <div >
       <Cabecalho />
       <Destaques />
       <CantaoApi />
@@ -16,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Promocoes = () => {
+ export const Promocoes = () => {
   return (
     <div>
       <section>
@@ -10,4 +10,3 @@ const Promocoes = () => {
   )
 }
 
-export default Promocoes

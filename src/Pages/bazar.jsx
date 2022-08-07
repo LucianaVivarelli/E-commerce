@@ -1,9 +1,12 @@
 import React from 'react'
 
-const bazar = () => {
+export const Bazar = () => {
   return (
-    <div>bazar</div>
+    <div>
+        
+        
+        
+    </div>
   )
 }
 
-export default bazar

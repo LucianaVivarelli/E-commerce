@@ -8,21 +8,23 @@ import Styles from "./Destaques.module.css";
 
 export const Destaques = () => {
   return (
-    <>
+    <div className={Styles.containerAllD}>
+
+ 
       <Divisor texto={"Destaques"} />
 
       <div clasName={Styles.containerImg}>
         <div className={Styles.iList01}>
-          <img src={midle01} alt="Sobre a Marca" />
+          <img className={Styles.midle01} src={midle01} alt="Sobre a Marca" />
 
-          <img src={midle02} alt="Promoções" />
+          <img className={Styles.midle02} src={midle02} alt="Promoções" />
         </div>
         <div className={Styles.iList02}>
-          <img src={midle03} alt="Bazar" />
+          <img className={Styles.midle02} src={midle03} alt="Bazar" />
 
-          <img src={midle04} alt="Loja" />
+          <img className={Styles.midle01} src={midle04} alt="Loja" />
         </div>
       </div>
-    </>
+    </div>
   );
 };

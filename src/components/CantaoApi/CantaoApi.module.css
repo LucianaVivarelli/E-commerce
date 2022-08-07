@@ -20,5 +20,35 @@ body {
 .pdtsUl,
 h3 {
   text-align: center;
-  width: 15rem;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color:rgb(221, 151, 20);
+}
+.paragrafer{
+  color:rgb(24, 23, 24);
+  margin-top: 0.2rem;
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pdtsUl{
+  height: 25rem;
+  width:15rem;
+  margin:1.5rem;
+  border:2rem double rgba(31, 1, 23, 0.292);
+}
+@media (max-width:767px){
+  body{
+    overflow:  hidden scroll;
+  }
+  .containerPdts {
+    display: flex;
+    justify-content: column;
+    justify-content: center;
+    align-items: center;
+    width:20rem;
+    
+    
+    
+  }
+
 }
