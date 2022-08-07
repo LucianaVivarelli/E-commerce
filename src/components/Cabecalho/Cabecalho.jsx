@@ -1,5 +1,6 @@
 import React from "react";
 import Styles from "./Cabecalho.module.css";
+import {Destaques} from "../Destaques/Destaques"
 
 export const Cabecalho = () => {
   return (
@@ -21,11 +22,11 @@ export const Cabecalho = () => {
         {/*Seção de Imagem header com butão de linkagem para a mesma página em coleções*/}
         <nav className={Styles.navBar}>
           <div className={Styles.listaContainer}>
-            <a className={Styles.login} href="./Pages/Login.html">
+            <a className={Styles.login} href="">
               Login
             </a>
-            <a className={Styles.contato} href="./Pages/Contato.html">
-              Contato
+            <a className={Styles.contato} href="">
+              Coleção
             </a>
           </div>
         </nav>

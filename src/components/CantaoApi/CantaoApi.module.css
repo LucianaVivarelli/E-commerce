@@ -14,9 +14,9 @@ body {
   margin: 0 auto;
 }
 .image {
-  width: 13rem;
+  width: 12rem;
   border-radius: 1rem;
-  margin: 1rem 0rem 0.5rem 1rem;
+  margin: 1rem 1rem 1rem 1rem;
   
 }
 .pdtsUl,
@@ -30,10 +30,10 @@ h4 {
 }
 .paragrafer{
   color:rgb(24, 23, 24);
-  margin: 0.2rem 0;
+  margin: 0.5rem 0;
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.8rem ;
+  font-size: 1rem ;
 }
 .pdtsUl{
   height: 25rem;
