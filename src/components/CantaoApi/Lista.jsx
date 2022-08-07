@@ -18,7 +18,7 @@ export const Lista = ({ CantaoApi }) => {
                 alt="cantaoApi"
               />
               </li>
-              <li> <h3>{cantaoApi.productName}</h3></li>
+              <li> <h4>{cantaoApi.productName}</h4></li>
               <li> <p className={Styles.paragrafer}>R$: {cantaoApi.items[0].sellers[0].commertialOffer.Price}</p></li>
             </div>
             
