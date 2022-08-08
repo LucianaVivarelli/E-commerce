@@ -18,12 +18,12 @@ export const Cabecalho = ({scrollToColecaoApi}) => {
         {/*Seção de Imagem header com butão de linkagem para a mesma página em coleções*/}
         <nav className={styles.navBar}>
           <ul className={styles.headerList}>
-            <li className={styles.navList}>
+            <li>
               {/* Usando React-Router-Dom na prática usando a tag "Link" para */}
-              <Link to="/">Home</Link>
+              <Link className={styles.navList} to="/">Home</Link>
             </li>
-            <li className={styles.navList}>
-              <Link to="/Login">Login</Link>
+            <li >
+              <Link className={styles.navList} to="/Login">Login</Link>
             </li>
             <li onClick={scrollToColecaoApi} className={styles.navList}>
               Colecao
