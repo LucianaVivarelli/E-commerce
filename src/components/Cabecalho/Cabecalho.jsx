@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Cabecalho.module.css";
 import { Link } from "react-router-dom";
 
-export const Cabecalho = () => {
+export const Cabecalho = ({scrollToColecaoApi}) => {
   return (
     <div className={styles.container}>
       <header className={styles.Cabecalho}>
@@ -19,14 +19,14 @@ export const Cabecalho = () => {
         <nav className={styles.navBar}>
           <ul className={styles.headerList}>
             <li className={styles.navList}>
-              {/* Usando React-Router-Dom na prática usando a tag "Link" para paginamento */}
+              {/* Usando React-Router-Dom na prática usando a tag "Link" para */}
               <Link to="/">Home</Link>
             </li>
             <li className={styles.navList}>
               <Link to="/Login">Login</Link>
             </li>
-            <li className={styles.navList}>
-              <Link to="/Colection">Coleção</Link>
+            <li onClick={scrollToColecaoApi} className={styles.navList}>
+              Colecao
             </li>
           </ul>
         </nav>
