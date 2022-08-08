@@ -6,59 +6,51 @@
   gap: 4rem;
   margin-top: 2.5rem;
 }
- .midle01:hover{
+.midle01,
+.midle02,
+.midle03,
+.midle04 {
+  border-radius: 2rem;
+}
+.midle01:hover {
   box-shadow: 1px 10px 15px rgba(222, 121, 12, 0.312);
-  transition:0.5s;
+  transition: 0.5s;
   border: 10px solid rgba(222, 121, 12, 0.306);
-  transform: scale(1.0); 
- }
- .midle02:hover{
+  transform: scale(1);
+}
+.midle02:hover {
   box-shadow: 1px 10px 15px rgba(48, 2, 53, 0.384);
-  transition:0.5s;
+  transition: 0.5s;
   border: 10px solid rgba(48, 2, 53, 0.384);
-  transform: scale(1.0); 
-  
-  
-  
- }
- .midle03:hover{
-  box-shadow: 1px 10px 15px  rgba(48, 2, 53, 0.384);
-  transition:0.5s;
+  transform: scale(1);
+}
+.midle03:hover {
+  box-shadow: 1px 10px 15px rgba(48, 2, 53, 0.384);
+  transition: 0.5s;
   border: 10px solid rgba(48, 2, 53, 0.384);
-  transform: scale(1.0); 
- }
- .midle04:hover{
+  transform: scale(1);
+}
+.midle04:hover {
   box-shadow: 1px 10px 15px rgba(222, 121, 12, 0.271);
   border: 10px solid rgba(222, 121, 12, 0.287);
-  transition:0.5s;
-  transform: scale(1.0); 
- }
-
-
-
-
-
-img {
-  border-radius: 2rem;
-
-
+  transition: 0.5s;
+  transform: scale(1);
 }
 
-@media (max-width:767px){
-
-
+@media (max-width: 767px) {
   .iList01,
   .iList02 {
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap:1rem;
-  margin:1rem 1rem;
-
-}
-img {
-  border-radius: 2rem;
-  width: 20rem;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 1rem;
+  }
+  .midle01,
+  .midle02,
+  .midle03,
+  .midle04 {
+    border-radius: 2rem;
+    width: 20rem;
+  }
 }

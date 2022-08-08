@@ -23,32 +23,27 @@
   object-fit: cover;
 }
 
-.headerList{
+.headerList {
   display: flex;
   justify-content: end;
   padding: 1rem 1rem;
   gap: 1rem;
   font-size: 1rem;
   font-family: "Cormorant SC", serif;
-
 }
-.navList{
-  
+.navList {
   font-family: "Cinzel", serif;
   letter-spacing: 0.2rem;
   font-weight: 800;
-  font-size:1rem;
- 
+  font-size: 1rem;
 }
-.navList:hover{
-  font-size:1.2em;
+.navList:hover {
+  font-size: 1.2em;
   color: white;
   text-decoration: none;
-  -webkit-text-stroke: 2px darkgreen; 
+  -webkit-text-stroke: 2px darkgreen;
   transition-timing-function: ease-in-out;
 }
-
-
 
 @media (max-width: 767px) {
   .list {
@@ -62,7 +57,7 @@
 
   .navBar {
     height: 38rem;
-   
+
     overflow: hidden;
     background: url("../../assets/images/header/Mobile.gif");
     background-repeat: no-repeat;

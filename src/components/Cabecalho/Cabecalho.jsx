@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Cabecalho.module.css";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 export const Cabecalho = () => {
   return (
@@ -11,21 +11,23 @@ export const Cabecalho = () => {
           <ul className={styles.list}>
             <li>Carrinho</li>
             <li>Em até 5x sem juros</li>
-            <li>
-              frete grátis acima de 300 reais em compras
-            </li>
-            <li>
-              15% off na primeira compra com o cupom: BEAUTY
-            </li>
+            <li>frete grátis acima de 300 reais em compras</li>
+            <li>15% off na primeira compra com o cupom: BEAUTY</li>
           </ul>
         </section>
         {/*Seção de Imagem header com butão de linkagem para a mesma página em coleções*/}
         <nav className={styles.navBar}>
           <ul className={styles.headerList}>
-          <li className={styles.navList}><Link to="/">Home</Link></li>
-          <li className={styles.navList}><Link to="/Login">Login</Link></li>
-          <li className={styles.navList}><Link to="/Colection">Coleção</Link></li>
-
+            <li className={styles.navList}>
+              {/* Usando React-Router-Dom na prática usando a tag "Link" para paginamento */}
+              <Link to="/">Home</Link>
+            </li>
+            <li className={styles.navList}>
+              <Link to="/Login">Login</Link>
+            </li>
+            <li className={styles.navList}>
+              <Link to="/Colection">Coleção</Link>
+            </li>
           </ul>
         </nav>
         {/*  fazer um código com as letras escrevendo a seguinte frase " frete grátis para todo o Brasil em compras de a partir R$:300,00" */}

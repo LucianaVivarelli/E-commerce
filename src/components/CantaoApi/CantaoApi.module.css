@@ -3,7 +3,6 @@ body {
 }
 
 .containerCantaoApi {
-  background-color: bisque;
   margin-bottom: 1.5rem;
 }
 .containerPdts {
@@ -14,67 +13,48 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
-.pdtsUl{
+.pdtsUl {
   height: 25rem;
-  max-width:18rem;
+  max-width: 18rem;
   background-color: rgba(255, 255, 255, 0.416);
-  border:2rem double rgba(31, 1, 23, 0.292);
+  border: 2rem double rgba(31, 1, 23, 0.292);
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 2rem;
-  
 }
 .image {
   width: 12rem;
   border-radius: 1rem;
   margin: 1rem 1rem 1rem 1rem;
-  
 }
 
-h4 {
-  max-width:200px;
+.titleCard {
+  max-width: 200px;
   text-align: center;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 1rem ;
-  color:rgb(221, 151, 20);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: rgb(221, 151, 20);
   font-weight: 700;
-  text-transform:initial;
-  
+  text-transform: initial;
 }
-.paragrafer{
-  color:rgb(24, 23, 24);
+.paragrafer {
+  color: rgb(24, 23, 24);
   margin: 0.5rem 0;
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem ;
-  
-}
-.ContainerBottom{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  gap:1.2rem;
+  font-size: 1rem;
 }
 
-
-
-
-
-
-@media (max-width:767px){
-  body{
-    overflow:  hidden scroll;
+@media (max-width: 767px) {
+  body {
+    overflow: hidden scroll;
   }
   .containerPdts {
     display: flex;
     justify-content: column;
     justify-content: center;
     align-items: center;
-    width:20rem;
-    
-    
-    
+    width: 20rem;
   }
-
 }
