@@ -1,10 +1,12 @@
 import React from 'react'
 
- export const Promocoes = () => {
+ export const Off = () => {
   return (
     <div>
       <section>
-        <h1> Nossas Promos</h1>
+      <Cabecalho />
+ <h1>Bem vindo ao nosso Bazar</h1>
+ <Rodape />
       </section>
     </div>
   )
