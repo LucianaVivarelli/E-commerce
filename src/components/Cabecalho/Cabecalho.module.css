@@ -2,13 +2,14 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration: none;
 }
 .list {
   display: flex;
   justify-content: space-around;
   background-color: bisque;
   color: rgb(210, 123, 24);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: "Cinzel", serif;
   padding: 0.5rem 0rem 0.5rem 0rem;
   font-weight: 700;
@@ -21,22 +22,30 @@
   background-size: cover;
   object-fit: cover;
 }
-.listaContainer {
+
+.headerList{
   display: flex;
   justify-content: end;
   padding: 1rem 1rem;
-  gap: 2.9rem;
+  gap: 1rem;
   font-size: 1rem;
   font-family: "Cormorant SC", serif;
+
 }
-.login,
-.contato {
-  text-decoration: none;
-  color: bisque;
+.navList{
+  
   font-family: "Cinzel", serif;
   letter-spacing: 0.2rem;
-  font-weight: 900;
-  font-size: 1.2rem;
+  font-weight: 800;
+  font-size:1rem;
+ 
+}
+.navList:hover{
+  font-size:1.2em;
+  color: white;
+  text-decoration: none;
+  -webkit-text-stroke: 2px darkgreen; 
+  transition-timing-function: ease-in-out;
 }
 
 
@@ -52,8 +61,8 @@
   }
 
   .navBar {
-    height: 58vh;
-    object-fit: cover;
+    height: 38rem;
+   
     overflow: hidden;
     background: url("../../assets/images/header/Mobile.gif");
     background-repeat: no-repeat;

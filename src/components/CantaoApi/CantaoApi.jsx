@@ -17,10 +17,10 @@ export const CantaoApi = () => {
         <ul className={styles.containerPdtos}>
           <Lista CantaoApi={cantaoApi} />
         </ul>
-        <section className={styles.ContainerBottom}>
-        <Divisor texto={"Venha conferir nossas novidades"} />
-          <p className={styles.pBottom}>Se cadastrando hoje, você ganha 15% de desconto com o cupom:<span>BEAUTY</span></p>
-        </section>
+      
+      
+      
+      
       </section>
      
     </main>

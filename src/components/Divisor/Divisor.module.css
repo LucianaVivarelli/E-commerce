@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 2rem;
   text-shadow: 4px 4px 5px #eeeaea93;
   font-family: "Cinzel", serif;
   letter-spacing: 1rem;
@@ -17,7 +17,7 @@
 .Divisor::after,
 .Divisor::before {
   content: "";
-  border: 0.5rem solid #18e8c23b;
+  border: 0.2rem solid #18e8c23b;
   border-radius: 20rem;
   flex: 1;
 }

@@ -21,10 +21,10 @@ export const Cabecalho = () => {
         </section>
         {/*Seção de Imagem header com butão de linkagem para a mesma página em coleções*/}
         <nav className={styles.navBar}>
-          <ul className={styles.listaContainer}>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/Login">Login</Link></li>
-          <li><Link to="/Colection">Coleção</Link></li>
+          <ul className={styles.headerList}>
+          <li className={styles.navList}><Link to="/">Home</Link></li>
+          <li className={styles.navList}><Link to="/Login">Login</Link></li>
+          <li className={styles.navList}><Link to="/Colection">Coleção</Link></li>
 
           </ul>
         </nav>
