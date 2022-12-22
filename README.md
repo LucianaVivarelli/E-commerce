@@ -11,7 +11,7 @@ Banner Responsivo Desktop  com linkagem em Router para o Divisor Coleção na me
 ![image](https://user-images.githubusercontent.com/96242187/183463084-d1d28552-bd36-467f-ac16-58e17889a9f1.png)
 </br></br>
 
-4 imagens responsivas. Sendo 2 em em uma linha e as outras duas na linha a baixo centralizado ao meio. Sendo as 4 imagens "linkavés"  renderizando uma página externa
+4 imagens responsivas. Sendo 2 em em uma linha e as outras duas na linha a baixo centralizado ao meio.
 </br></br>
 
 ![image](https://user-images.githubusercontent.com/96242187/183463190-fba342bc-7895-41ac-a97e-438618163ec7.png)
