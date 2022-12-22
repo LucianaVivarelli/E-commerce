@@ -1,5 +1,6 @@
-<h1 align="center"> HoldingS2_teste </h1>
+<h1 align="center"> Landing Page E-commerce (Apenas Front-End focado em estilização para modelo) </h1>
 <hr />
+<p> Projeto feito por mim sem cópias de código para exercitar o React quando comecei a mexer com o framework </p>
 
 <h2> Desktop: </h2>
 </br>
@@ -10,19 +11,19 @@ Banner Responsivo Desktop  com linkagem em Router para o Divisor Coleção na me
 ![image](https://user-images.githubusercontent.com/96242187/183463084-d1d28552-bd36-467f-ac16-58e17889a9f1.png)
 </br></br>
 
-4 imagens responsivas. Sendo 2 em em uma linha e as outras duas na linha a baixo centralizado ao meio. Sendo as 4 imagens linkavés renderizando uma página externa
+4 imagens responsivas. Sendo 2 em em uma linha e as outras duas na linha a baixo centralizado ao meio. Sendo as 4 imagens "linkavés"  renderizando uma página externa
 </br></br>
 
 ![image](https://user-images.githubusercontent.com/96242187/183463190-fba342bc-7895-41ac-a97e-438618163ec7.png)
 Consumo de Api:
 
-O consumo da Api de produtos Cantao foi consumida via arquivo jSon. Na documentação pede para que os items sejam renderizados em pratileira:
+O consumo de produtos foi consumida via arquivo jSon. Renderizados em pratileira:
 </br></br>
 
 ![image](https://user-images.githubusercontent.com/96242187/183463597-d76cf1e2-8591-41c0-bc68-a01fa3d50f06.png)
 Titulo/Paragrafo/ Footer:
 
-Seguindo a documentação utilizando um titulo e um paragrafo ao final da página.
+Para finalizar a ideia do e-commerce, coloquei um titulo e um paragrafo ao final da página.
 </br></br>
 
 ![image](https://user-images.githubusercontent.com/96242187/183463372-4426ef2c-69e0-4359-9ac2-41f2d7abb9b7.png)
