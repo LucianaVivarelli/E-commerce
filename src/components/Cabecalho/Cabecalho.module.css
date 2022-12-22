@@ -13,6 +13,7 @@
   font-family: "Cinzel", serif;
   padding: 0.5rem 0rem 0.5rem 0rem;
   font-weight: 700;
+  cursor: context-menu;
 }
 .navBar {
   height: 68vh;
@@ -37,7 +38,8 @@
   letter-spacing: 0.2rem;
   font-weight: 800;
   font-size: 1rem;
-  color:white;
+  color: white;
+  cursor: pointer;
 }
 .navList:hover {
   font-size: 1.2em;

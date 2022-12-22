@@ -14,29 +14,15 @@ export const Destaques = () => {
 
       <div>
         <div className={styles.iList01}>
+          <img className={styles.midle01} src={midle01} alt="Coleção" />
 
-          <Link to="/Colection">
-            <img className={styles.midle01} src={midle01} alt="Coleção" />
-          </Link>
-
-          <Link to="/Bazar">
-            {" "}
-            <img className={styles.midle02} src={midle02} alt="Bazar" />
-          </Link>
-
+          <img className={styles.midle02} src={midle02} alt="Bazar" />
         </div>
 
         <div className={styles.iList02}>
+          <img className={styles.midle03} src={midle03} alt="Lojas" />
 
-          <Link to="/Stores">
-            <img className={styles.midle03} src={midle03} alt="Lojas" />
-          </Link>
-
-          <Link to="/Off">
-            {" "}
-            <img className={styles.midle04} src={midle04} alt="Peças Off" />
-          </Link>
-          
+          <img className={styles.midle04} src={midle04} alt="Peças Off" />
         </div>
       </div>
     </div>

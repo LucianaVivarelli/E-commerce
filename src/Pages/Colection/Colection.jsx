@@ -1,10 +1,10 @@
-import React from 'react'
-import { CantaoApi } from '../../components/CantaoApi/CantaoApi'
+import React from "react";
+import { CantaoApi } from "../../components/CantaoApi/CantaoApi";
 
 export const Colection = () => {
   return (
     <div>
-        <CantaoApi />
+      <CantaoApi />
     </div>
-  )
-}
+  );
+};

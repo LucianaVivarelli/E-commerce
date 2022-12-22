@@ -4,8 +4,7 @@ import styles from "./CantaoApi.module.css";
 import { Lista } from "./Lista";
 import { produtos } from "../../../produtos";
 
-
-export const CantaoApi = ({ColecaoRef}) => {
+export const CantaoApi = ({ ColecaoRef }) => {
   const [cantaoApi, setCantaoApi] = useState(produtos);
 
   return (

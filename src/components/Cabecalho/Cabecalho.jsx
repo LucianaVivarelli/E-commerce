@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Cabecalho.module.css";
 import { Link } from "react-router-dom";
 
-export const Cabecalho = ({scrollToColecaoApi}) => {
+export const Cabecalho = ({ scrollToColecaoApi }) => {
   return (
     <div className={styles.container}>
       <header className={styles.Cabecalho}>
@@ -15,15 +15,14 @@ export const Cabecalho = ({scrollToColecaoApi}) => {
             <li>15% off na primeira compra com o cupom: BEAUTY</li>
           </ul>
         </section>
-        {/*Seção de Imagem header com butão de linkagem para a mesma página em coleções*/}
+        {/*Seção de Imagem header com botão de linkagem para a mesma página em coleções*/}
         <nav className={styles.navBar}>
           <ul className={styles.headerList}>
             <li>
               {/* Usando React-Router-Dom na prática usando a tag "Link" para */}
-              <Link className={styles.navList} to="/">Home</Link>
-            </li>
-            <li >
-              <Link className={styles.navList} to="/Login">Login</Link>
+              <Link className={styles.navList} to="/">
+                Home
+              </Link>
             </li>
             <li onClick={scrollToColecaoApi} className={styles.navList}>
               Colecao

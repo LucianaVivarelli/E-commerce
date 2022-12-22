@@ -1,6 +1,7 @@
 .containerFooter {
   background-color: rgb(40, 2, 44);
   padding: 1.5rem;
+  cursor: context-menu;
 }
 .colsFooter {
   display: flex;
