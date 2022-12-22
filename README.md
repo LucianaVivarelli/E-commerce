@@ -3,7 +3,7 @@
 
 <h2> Desktop: </h2>
 </br>
-Banner Responsivo Desktop  com linkagem em Router para paginamento externo. Uso de function para fazer com que o link coleção exiba o Divisor Coleção na mesma aba
+Banner Responsivo Desktop  com linkagem em Router para o Divisor Coleção na mesma aba
 
 </br></br>
 
