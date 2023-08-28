@@ -1,4 +1,4 @@
-<h1 align="center"> Landing Page E-commerce (Apenas Front-End focado em estilização para modelo) </h1>
+<h1 align="center">Landing Page E-commerce (Apenas Front-End focado em estilização para modelo) </h1>
 <hr />
 <p> Projeto feito por mim sem cópias de código para exercitar o React quando comecei a mexer com o framework </p>
 
